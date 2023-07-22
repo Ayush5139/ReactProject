@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FaAngleDoubleRight, FaArrowDown, FaArrowUp, FaBackward } from 'react-icons/fa'
+import { FaAlignJustify, FaAngleDoubleRight, FaArrowDown, FaArrowUp, FaBackward } from 'react-icons/fa'
 import { Link, NavLink } from 'react-router-dom'
 import './Home.css'
 
@@ -22,7 +22,7 @@ function NAV() {
           <div className='linkdiv'>
             <Link to='/' className='linktt'><p className='p1'><span className = 's1'>The</span>Siren</p></Link>
             {
-              (click?<button onClick={settrue} className='hidebut'><FaArrowDown/></button>:<button onClick={setfalse} className='hidebut'><FaArrowUp/></button>)
+              (click?<button onClick={settrue} className='hidebut'><FaAlignJustify/></button>:<button onClick={setfalse} className='hidebut'><FaAlignJustify/></button>)
             }
             </div>
             <div className='div3'> 
@@ -44,7 +44,6 @@ function NAV() {
             <hr className='linkh1'></hr>
         </div>
         <div></div>
-
             <hr className='linkh2'></hr>
         </div>
     </div>
